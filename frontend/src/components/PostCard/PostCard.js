@@ -194,9 +194,6 @@ const PostCard = ({
   const [isOptionOpen, setIsOptionOpen] = useState(false);
   const [readMore, setReadMore] = useState(false);
 
-  console.log("image postcard", image);
-  console.log("createdAt", createdAt);
-
   const toggleReadMore = () => {
     if (!readMore) {
       setReadMore(true);

@@ -1,11 +1,9 @@
 import React from "react";
 import {
   render,
-  cleanup,
   findByTestId,
   findByText,
-  fireEvent,
-  waitForElement
+  fireEvent
 } from "@testing-library/react";
 import SearchResult from "../components/Search/SearchResult.js";
 import theme from "../theme.js";

@@ -8,9 +8,10 @@ I've navigated the codebase and added some features to Open Source Project [Crea
 ## Features Added
 
 - **Create new article** allow users to create new articles with title, description, text, tags, image
-- **Explore articles** users explore articles, on click brings to custom article page
+- **Explore articles** all the articles can be easily navigated, brings to custom article page on click
 - **Search for users and articles** search for users and articles (articles are filtered by titles and tags)
 - **Profile** edited UI of profile to include description, location, website
+- **Unit Testing** unit testing for create new article & search results
 
 ## Original Features
 

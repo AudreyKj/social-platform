@@ -40,7 +40,7 @@ const Query = {
       .limit(limit)
       .sort({ createdAt: "desc" });
 
-    console.log("allPosts", allPosts);
+    //console.log("allPosts", allPosts);
     return { posts: allPosts, count: postsCount };
   },
   /**
@@ -89,8 +89,6 @@ const Query = {
       .skip(skip)
       .limit(limit)
       .sort({ createdAt: "desc" });
-
-    console.log("followedPosts", followedPosts);
 
     return { posts: followedPosts, count: followedPostsCount };
   },
@@ -200,7 +198,7 @@ const Mutation = {
       { $push: { posts: newPost.id } }
     );
 
-    console.log("newPost", newPost);
+    //console.log("newPost", newPost);
     return newPost;
   },
   /**

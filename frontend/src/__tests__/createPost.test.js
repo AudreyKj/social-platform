@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  render,
-  cleanup,
-  findByTestId,
-  findByText,
-  fireEvent,
-  waitForElement
-} from "@testing-library/react";
+import { render, findByText, fireEvent } from "@testing-library/react";
 import CreatePost from "../components/CreatePost.js";
 import theme from "../theme.js";
 import { CREATE_POST } from "../graphql/post.js";
