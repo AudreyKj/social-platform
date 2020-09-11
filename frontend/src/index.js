@@ -10,7 +10,6 @@ import "normalize.css";
 import theme from "theme";
 
 import App from "components/App/App";
-import { BrowserRouter as Router } from "react-router-dom";
 
 // GraphQL HTTP URL
 const API_URL = process.env.REACT_APP_API_URL;

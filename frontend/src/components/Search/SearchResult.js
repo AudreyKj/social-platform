@@ -7,7 +7,6 @@ import { useHistory } from "react-router-dom";
 import { Spacing } from "components/Layout";
 
 import Avatar from "components/Avatar";
-import { BrowserRouter as Router } from "react-router-dom";
 
 import * as Routes from "routes";
 

@@ -9,15 +9,7 @@ import CreateComment from "components/CreateComment";
 import Like from "components/Like";
 import { DotsIcon, PostCommentIcon } from "components/icons";
 import { Spacing } from "components/Layout";
-import {
-  A,
-  H1,
-  H2,
-  H3,
-  TAGS,
-  PARAGRAPHTEXT,
-  PARAGRAPHDESC
-} from "components/Text";
+import { A, H1, TAGS, PARAGRAPHDESC, PARAGRAPHTEXT } from "components/Text";
 import { Button } from "components/Form";
 import PostCardOption from "components/PostCard/PostCardOption";
 import Modal from "components/Modal";
